@@ -1,0 +1,116 @@
+MemCheck version 2.75
+
+TOP 10 Leaks: begin
+Leak #0 User allocated memory (GetMem)
+	Size: 94
+	1 Occurence
+	call stack - 0 : (no debug info) Find error: 00000003
+	call stack - 1 : (no debug info) Find error: 0040D455
+	call stack - 2 : (no debug info) Find error: 0040D91C
+	call stack - 3 : (no debug info) Find error: 0040DA13
+	call stack - 4 : (no debug info) Find error: 004050C6
+	call stack - 5 : (no debug info) Find error: 7C903787
+	call stack - 6 : (no debug info) Find error: 7C90EAF6
+
+Leak #2 User allocated memory (GetMem)
+	Size: 32
+	1 Occurence
+	call stack - 0 : (no debug info) Find error: 0012FE04
+	call stack - 1 : (no debug info) Find error: 00465E37
+	call stack - 2 : (no debug info) Find error: 00465AF3
+	call stack - 3 : (no debug info) Find error: 00465AC9
+	call stack - 4 : (no debug info) Find error: 0046E774
+	call stack - 5 : (no debug info) Find error: 004AA7FD
+	call stack - 6 : (no debug info) Find error: 7C816FD3
+	call stack - 7 : (no debug info) Find error: FFFFFFFC
+
+Leak #3 User allocated memory (GetMem)
+	Size: 28
+	1 Occurence
+	call stack - 0 : (no debug info) Find error: 0012FE34
+	call stack - 1 : (no debug info) Find error: 00465AF3
+	call stack - 2 : (no debug info) Find error: 00465AC9
+	call stack - 3 : (no debug info) Find error: 0046E774
+	call stack - 4 : (no debug info) Find error: 004AA7FD
+	call stack - 5 : (no debug info) Find error: 7C816FD3
+	call stack - 6 : (no debug info) Find error: FFFFFFFC
+
+Leak #1 User allocated memory (GetMem)
+	Size: 16
+	1 Occurence
+	call stack - 0 : (no debug info) Find error: 00000003
+	call stack - 1 : (no debug info) Find error: 0040DA13
+	call stack - 2 : (no debug info) Find error: 004050C6
+	call stack - 3 : (no debug info) Find error: 7C903787
+	call stack - 4 : (no debug info) Find error: 7C90EAF6
+
+TOP 10 Leaks: end
+
+Total leak: 170 bytes
+
+
+*** MEMCHK: Blocks STILL allocated ***
+
+Leak #0 User allocated memory (GetMem)
+	Size: 94
+	1 Occurence
+	call stack - 0 : (no debug info) Find error: 00000003
+	call stack - 1 : (no debug info) Find error: 0040D455
+	call stack - 2 : (no debug info) Find error: 0040D91C
+	call stack - 3 : (no debug info) Find error: 0040DA13
+	call stack - 4 : (no debug info) Find error: 004050C6
+	call stack - 5 : (no debug info) Find error: 7C903787
+	call stack - 6 : (no debug info) Find error: 7C90EAF6
+
+Leak #1 User allocated memory (GetMem)
+	Size: 16
+	1 Occurence
+	call stack - 0 : (no debug info) Find error: 00000003
+	call stack - 1 : (no debug info) Find error: 0040DA13
+	call stack - 2 : (no debug info) Find error: 004050C6
+	call stack - 3 : (no debug info) Find error: 7C903787
+	call stack - 4 : (no debug info) Find error: 7C90EAF6
+
+Leak #2 User allocated memory (GetMem)
+	Size: 32
+	1 Occurence
+	call stack - 0 : (no debug info) Find error: 0012FE04
+	call stack - 1 : (no debug info) Find error: 00465E37
+	call stack - 2 : (no debug info) Find error: 00465AF3
+	call stack - 3 : (no debug info) Find error: 00465AC9
+	call stack - 4 : (no debug info) Find error: 0046E774
+	call stack - 5 : (no debug info) Find error: 004AA7FD
+	call stack - 6 : (no debug info) Find error: 7C816FD3
+	call stack - 7 : (no debug info) Find error: FFFFFFFC
+
+Leak #3 User allocated memory (GetMem)
+	Size: 28
+	1 Occurence
+	call stack - 0 : (no debug info) Find error: 0012FE34
+	call stack - 1 : (no debug info) Find error: 00465AF3
+	call stack - 2 : (no debug info) Find error: 00465AC9
+	call stack - 3 : (no debug info) Find error: 0046E774
+	call stack - 4 : (no debug info) Find error: 004AA7FD
+	call stack - 5 : (no debug info) Find error: 7C816FD3
+	call stack - 6 : (no debug info) Find error: FFFFFFFC
+
+*** MEMCHK: End of allocated blocks ***
+
+
+*** MEMCHK: Chronological leak information ***
+
+* User allocated memory (GetMem) (Leak #3) Size: 28
+* User allocated memory (GetMem) (Leak #2) Size: 32
+* User allocated memory (GetMem) (Leak #1) Size: 16
+* User allocated memory (GetMem) (Leak #0) Size: 94
+
+*** MEMCHK: End of chronological leak information ***
+
+
+*** MEMCHK: Blocks written to after destruction ***
+
+	Bad blocks count: 0
+
+
+*** MEMCHK: End of blocks written to after destruction ***
+
