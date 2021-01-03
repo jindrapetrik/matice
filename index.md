@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# Matice 2
+![Náhled aplikace](screenshoty/nahledy/04.jpg)  
+Program Matice 2 slouží k provádění výpočtů s maticemi. V jednoduchém víceokenním (tzv. MDI) rozhraní
+lze pracovat s více maticemi zároveň.
 
-You can use the [editor on GitHub](https://github.com/jindrapetrik/matice/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Lze provádět například tyto operace:
+* Transponování
+* Inverzní matice
+* Sčítání
+* Odčítání
+* Násobení
+* Převedení na trojúhelníkovou (Gaussova eliminace)
+* Násobení konstantou
+* Výpočet opačné, jednotkové a diagonální matice
+* Výpočet determinantu a hodnosti matice
+* atd...
 
-### Markdown
+## Rozhraní
+Aplikace má intuitivní uživatelské rozhraní. Jednoduše lze vytvářet nové matice, přidávat nové řádky a sloupce, případně je také odebírat nebo přesouvat.
+Matice se může pojmenovat a uložit do souboru. Program ukládá jak do nativního formátu MT2, tak do formátu CSV. Dále je tu také možnost exportu do sešitu aplikace Excel (soubor .XLS).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Speciální vlastnosti
 
-```markdown
-Syntax highlighted code block
+* M2 umí pracovat s <span class="b">komplexními čísly</span>. Komplexní čísla se zadávají jednoduše ve formátu například 5-i2, i, -i2, 2+i5 apod... Písmeno imaginární proměnné si lze zvolit.
+* M2 zvládá **přesnou práci se zlomky**. Pokud je to možné, program nezaokrouhluje, ale počítá **přímo se zlomky** a výsledek je tak **velice přesný**. Zlomky se zadávají ve tvaru například 1/2, 8/3, 1+1/2,-2-2/3 apod.
 
-# Header 1
-## Header 2
-### Header 3
+## Screenshoty
+Pár obrázku z aplikace si můžete prohlédnout [zde](screenshoty)
 
-- Bulleted
-- List
+## Stažení
+Spustitelný soubor pro Windows lze stahnout zde: [nejnovější release](https://github.com/jindrapetrik/matice/releases/latest)
+Tamtéž naleznete možnost stažení zdrojového kódu.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jindrapetrik/matice/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Historie změn
+Historii změn se uchovává v souboru [CHANGELOG.md](https://github.com/jindrapetrik/matice/blob/main/CHANGELOG.md)
