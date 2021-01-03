@@ -1,4 +1,7 @@
 # Matice 2
+
+**(The application is in czech language only, sorry english users)**
+
 ![Náhled aplikace](screenshoty/nahledy/04.jpg)  
 Program Matice 2 slouží k provádění výpočtů s maticemi. V jednoduchém víceokenním (tzv. MDI) rozhraní
 lze pracovat s více maticemi zároveň.
@@ -30,7 +33,15 @@ Pár obrázku z aplikace si můžete prohlédnout [zde](screenshoty)
 
 ## Stažení
 Spustitelný soubor pro Windows lze stahnout zde: [nejnovější release](https://github.com/jindrapetrik/matice/releases/latest)
-Tamtéž naleznete možnost stažení zdrojového kódu.
+
+## Zdrojové kódy
+Zdrojové kódy lze nalézt na [github.com/jindrapetrik/matice](https://github.com/jindrapetrik/matice/)
 
 ## Historie změn
 Historii změn se uchovává v souboru [CHANGELOG.md](https://github.com/jindrapetrik/matice/blob/main/CHANGELOG.md)
+
+## Autor
+Autorem tohoto programu je Jindra Petřík alias JPEXS.
+
+## Kontakt
+Kontaktovat mě můžete na mailu jindra.petrik@gmail.com
