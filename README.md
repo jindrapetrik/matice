@@ -1,7 +1,7 @@
 # Matice 2
 
 ## CZ
-Program k provádění výpočtů s maticemi. (Detailnější popis viz [wiki](https://github.com/jindrapetrik/matice/wiki))
+Program k provádění výpočtů s maticemi. (Detailnější popis viz [web](https://jindrapetrik.github.io/matice/))
 
 Tyto zdrojové kódy lze zkompilovat pomocí programu Turbo Delphi.  
 Hlavní soubor projektu je MDIAPP.dpr, případně MDIAPP.bdsproj
@@ -12,7 +12,7 @@ Pro účely snadnějšího stažení EXE na webu byla aplikace komprimována pro
 Ve složce `ikony` jsou použité obrázky pro toolbar apod.
 
 ## EN
-Application for matrix calculations. (Detailed czech description in [wiki](https://github.com/jindrapetrik/matice/wiki))  
+Application for matrix calculations. (Detailed czech description on [the web](https://jindrapetrik.github.io/matice/))  
 **The application is in czech language only, sorry.**  
 The source code can be compiled with Turbo Delphi.  
 Main file of the project is MDIAPP.dpr, or MDIAPP.bdsproj
